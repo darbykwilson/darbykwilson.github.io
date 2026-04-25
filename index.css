@@ -1,0 +1,23 @@
+body {
+    background-color:#f7e8ab;
+}
+.small-centered {
+  display: block;        /* Necessary to allow auto margins */
+  margin-left: auto;     /* Centers horizontally */
+  margin-right: auto;    /* Centers horizontally */
+  width: 600px;          /* Makes the image small */
+}
+.under-that {
+  display: block;        /* Necessary to allow auto margins */
+  margin-left: auto;     /* Centers horizontally */
+  margin-right: auto;    /* Centers horizontally */
+  width: 600px;          /* Makes the image small */
+  position: relative; top: -60px;
+}
+.bottom-of-page {
+  display: block;        /* Necessary to allow auto margins */
+  margin-left: auto;     /* Centers horizontally */
+  margin-right: auto;    /* Centers horizontally */
+  width: 400px;          /* Makes the image small */
+  position: relative; top: 100px;   
+}
