@@ -1,0 +1,136 @@
+body {
+    background-color:#f7e8ab;
+}
+.small-centered {
+  display: block;        /* Necessary to allow auto margins */
+  margin-left: auto;     /* Centers horizontally */
+  margin-right: auto;    /* Centers horizontally */
+  width: 600px;          /* Makes the image small */
+}
+.under-that {
+  display: block;        /* Necessary to allow auto margins */
+  margin-left: auto;     /* Centers horizontally */
+  margin-right: auto;    /* Centers horizontally */
+  width: 600px;          /* Makes the image small */
+  position: relative; top: -60px;
+}
+.bottom-of-page {
+  display: block;        /* Necessary to allow auto margins */
+  margin-left: auto;     /* Centers horizontally */
+  margin-right: auto;    /* Centers horizontally */
+  width: 400px;          /* Makes the image small */
+  position: relative; top: 100px;   
+}
+
+.home-layout {
+  display: flex;
+  justify-content: center;
+}
+
+.home-content-vertical {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.home-header {
+  margin-top: 6vh;
+  max-width: 56vw;
+  max-height: 44vh;
+  object-fit: fill;
+}
+
+.home-tagline-box {
+  margin-top: -9vh;
+  margin-bottom: 26vh;
+  display: flex;
+  flex-direction: row;
+  max-height: 19vh;
+}
+
+.home-tagline-item {
+  max-height: 19vh;
+}
+
+.home-contact {
+  margin-bottom: 7vh;
+  max-width: 37vw;
+  max-height: 9vh;
+  object-fit: fill;
+}
+
+.lhs-rhs-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.lhs-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.lhs-box-header {
+  margin-top: 3vh;
+  margin-left: 2vw;
+  max-width: 32vw;
+  max-height: 33vh;
+  object-fit: fill;
+}
+
+.lhs-box-graphic {
+  margin-top: 5vh;
+  margin-left: 3vw;
+  max-width: 45vw;
+}
+
+.rhs-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.rhs-box-text-educator {
+  margin-top: 10vh;
+  margin-right: 5vw;
+  max-width: 38vw;
+  max-height: 74vh;
+}
+
+.rhs-box-text-artist {
+  margin-top: 10vh;
+  margin-right: 5vw;
+  max-width: 38vw;
+  max-height: 78vh;
+}
+
+.rhs-box-text-writer {
+  margin-top: 10vh;
+  margin-right: 5vw;
+  max-width: 38vw;
+  max-height: 81vh;
+}
+
+.rhs-box-text-media {
+  margin-top: 10vh;
+  margin-right: 5vw;
+  max-width: 38vw;
+  max-height: 25vh;
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-contact-me {
+  margin-top: 11vh;
+  max-width: 37vw;
+  max-height: 10vh;
+}
+
+.contact-email {
+  margin-top: 7vh;
+  max-width: 94vw;
+  max-height: 10vh;
+}
