@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap');
+
 body {
     background-color:#f7e8ab;
 }
@@ -133,4 +136,24 @@ body {
   margin-top: 7vh;
   max-width: 94vw;
   max-height: 10vh;
+}
+
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 43px;
+  color: #18375d;
+  margin-left: 1vw;
+  margin-bottom: 1vh;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  color: #547b60;
+  margin-left: 2vw;
+  margin-bottom: 0.5vh;
 }
